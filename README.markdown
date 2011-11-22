@@ -65,17 +65,17 @@ Examples:
 
 
 Available Methods:
-    toArray - convert to array()
-    count - count the elements in the result
-    firstOrNull - get the first element or null if none is present
-    first - get the first element, throws exception on failure to find any
-    lastOrNull - get last element or null if none is present
-    last - get last element, throws exception on failure to find any
-    singleOrNull - get a single element based on a condition or null if no element mathces
-    single - get a single element based on a condition, throws an exception on failure to find any
-    where - filter elements based on condition
-    select - select values from the elements
-    order - order the elements
-    orderBy - order the elements by a given value
-    orderDesc - like order but, descending
-    orderByDesc - like orderBy, but descending
+* toArray - convert to array()
+* count - count the elements in the result
+* firstOrNull - get the first element or null if none is present
+* first - get the first element, throws exception on failure to find any
+* lastOrNull - get last element or null if none is present
+* last - get last element, throws exception on failure to find any
+* singleOrNull - get a single element based on a condition or null if no element mathces
+* single - get a single element based on a condition, throws an exception on failure to find any
+* where - filter elements based on condition
+* select - select values from the elements
+* order - order the elements
+* orderBy - order the elements by a given value
+* orderDesc - like order but, descending
+* orderByDesc - like orderBy, but descending
