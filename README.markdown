@@ -16,7 +16,7 @@ Examples:
     $persons = array(
         new Person("peter", 10),
         new Person("jane",  14),
-        new Person("alan",  42),
+        new Person("allan", 42),
         new Person("lis",   23),
         new Person("jimmy", 19),
         new Person("ruth",   7)
@@ -34,7 +34,7 @@ Examples:
     /*
     array(3) {
       [0]=>
-      string(4) "alan"
+      string(4) "allan"
       [1]=>
       string(5) "jimmy"
       [2]=>
@@ -59,12 +59,13 @@ Examples:
       [1]=>
       string(3) "lis"
       [2]=>
-      string(4) "alan"
+      string(4) "allan"
     }
     */
 
 
 Available Methods:
+
 * toArray - convert to array()
 * count - count the elements in the result
 * firstOrNull - get the first element or null if none is present
